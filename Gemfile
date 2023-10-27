@@ -71,3 +71,6 @@ group :test do
   gem "selenium-webdriver"
 
 end
+
+# formatter
+# gem "solargraph", "~>0.49.0"

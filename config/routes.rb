@@ -8,8 +8,11 @@ Rails.application.routes.draw do
   get 'about', to: 'pages#about'
   
   # to create all the routes for the show article
-  # resources :articles
+  resources :articles
 
   # to create the route only for the show article
-  resources :articles, only: [:show]
+  # resources :articles, only: [:show]
+  # resources :articles, only: [:show, :index, :new, :create, :edit, :update, :destroy]
+
+
 end
